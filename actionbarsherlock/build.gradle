@@ -5,8 +5,10 @@ dependencies {
 }
 
 android {
-  compileSdkVersion 14
-  buildToolsVersion '17.0.0'
+  //group = 'com.actionbarsherlock'
+  //version = '4.4.0'
+  compileSdkVersion 18
+  buildToolsVersion '18.0.1'
 
   sourceSets {
     main {
