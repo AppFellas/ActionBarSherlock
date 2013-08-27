@@ -8,6 +8,11 @@ buildscript {
     }
 }
 
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
 apply plugin: 'android-library'
 
 dependencies {
